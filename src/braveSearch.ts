@@ -110,7 +110,7 @@ class BraveSearch {
    */
   getSummarizedAnswer(
     query: string,
-    options: Omit<BraveSearchOptions, "summary"> = {},
+    options: BraveSearchOptions = {},
     summarizerOptions: SummarizerOptions = {},
     signal?: AbortSignal,
   ): {
